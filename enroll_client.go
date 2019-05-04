@@ -146,11 +146,11 @@ func messageInit() {
 	binary.BigEndian.PutUint64(initMessage.nonce, 0)
 
 	// Set up email
-	initMessage.email = []byte("ga94kow@mytum.de\r\n")
+	initMessage.email = []byte("xx00xxx@mytum.de\r\n")
 	// Set up first name
-	initMessage.firstname = []byte("Maximilian-Dominik\r\n")
+	initMessage.firstname = []byte("Max\r\n")
 	// Set up last name
-	initMessage.lastname = []byte("Robl")
+	initMessage.lastname = []byte("Mustermann")
 }
 
 // This function implements the RFC 6234 padding standard - since sha256 is already using padding this is not used
